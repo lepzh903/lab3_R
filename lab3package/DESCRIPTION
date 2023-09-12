@@ -9,3 +9,7 @@ Description: This package contains two famous algorithms in the field of compute
 License: GPL
 Encoding: UTF-8
 RoxygenNote: 7.2.3
+LazyData: true
+NeedsCompilation: no
+Suggests: testthat
+
