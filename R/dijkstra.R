@@ -21,16 +21,16 @@
 dijkstra <-
 function(graph, init_node){
     if (!(is.data.frame(graph))){
-        stop('the graph argument should be a dataframe')
+        stop('graph should be a dataframe')
     }
-    if (sum(names(graph) == c('v1','v2','w')) != 3){
-        stop('the graph argument should contain and only contain columns v1, v2, and w')
+    if (!(names(graph)[1]=='v1'&&names(graph)[2]=='v2'&&names(graph)[3]=='w' )){
+        stop('graph should only contain three variables v1, v2, and w')
     }
     if (!is.numeric(init_node)){
-        stop('the init_node argument should be a numeric scalar')
+        stop('the init_node should be a numeric scalar')
     }
     if (!init_node %in% c(graph$v1,graph$v2)){
-        stop('the init_node argument should exist in the graph')
+        stop('the init_node should exist in the graph')
     }
     
     vts <- unique(c(graph$v1,graph$v2))
