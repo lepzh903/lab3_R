@@ -1,19 +1,18 @@
 Package: lab3package
 Type: Package
-Title: Euclidian and Dijkstras
+Title: The Euclidian algorithm and the Dijkstras algorithm
 Version: 0.1.0
 Date: 2023-09-11
 Authors@R: c(
     person("Lepeng", "Zhang", email = "lepzh903@student.liu.se", role = "cre"),
     person("William", "Wijgård", email = "wilwi220@student.liu.se", role = "aut"))
 Maintainer: Lepeng Zhang <lepzh903@student.liu.se>
-Description: This package contains two famous algorithms: the Euclidian algorithm and the Dijkstras algorithm.
+Description: The Euclidian algorithm is to find the greatest common divisor of two numbers. The Dijkstras algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph. 
 License: GPL
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 LazyData: true
 NeedsCompilation: no
 Depends: R (>= 3.5.0)
-Suggests: 
-    testthat (>= 3.0.0)
-    
+Suggests: testthat (>= 3.0.0)
+
