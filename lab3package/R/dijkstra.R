@@ -15,7 +15,7 @@
 #'                          v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5),
 #'                          w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9))
 #' dijkstra(wiki_graph, 1)
-#' dijkstra(wiki_graph, 5)
+#' dijkstra(wiki_graph, 7)
 #' 
 #' @export
 dijkstra <-
